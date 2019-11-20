@@ -19,7 +19,7 @@ h2 {
     background-color: white;
 }
 
-.aboutMe {
+.aboutMe, .portfolio {
     padding: 10px 10px 10px 10px;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -64,7 +64,7 @@ h2 {
     bottom: -22px;
 }
 
-#image {
+#meImage {
     float: left;
     padding: 10px 10px 10px 0px;
 }
@@ -96,4 +96,8 @@ footer {
     position: relative;
     bottom: 25px;
 
+}
+
+#portfolioA, #portfolioB, #portfolioC, #portfolioD, #portfolioE {
+    
 }
