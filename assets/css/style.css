@@ -5,22 +5,14 @@ html {
 }
 
 body {
-    
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 
-.mainHeader {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    width: 100%;
-}
-
-#topRight{
-    color: #777777;
-    font-size: 10px;
+.main {
+    
 }
 
 h1, h2, h3 {
@@ -39,7 +31,22 @@ h2 {
     background-color: white;
 }
 
+.mainHeader {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 100%;
+}
+
+#topRight{
+    color: #777777;
+    font-size: 10px;
+    position: relative;
+    left: 770px;
+    bottom: 45px;
+}
+
 .aboutMe {
+
     padding: 10px 10px 10px 10px;
     float: right;
     background-color: #ffffff;
