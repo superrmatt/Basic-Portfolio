@@ -99,5 +99,67 @@ footer {
 }
 
 #portfolioA, #portfolioB, #portfolioC, #portfolioD, #portfolioE {
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+
+#descriptionA, #descriptionB, #descriptionC, #descriptionD, #descriptionE{
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    width: 300px;
+    margin-left: 10px;
     
+}
+
+#portfolioA {
+    position: relative;
+}
+
+#descriptionA {
+    position: absolute;
+    top: 200px;
+}
+
+#portfolioB {
+    position: relative;
+}
+
+#descriptionB {
+    position: absolute;
+    top: 200px;
+    right: 335px;
+}
+
+
+#portfolioC {
+    position: relative;
+}
+
+#descriptionC {
+    position: absolute;
+    top: 375px;
+}
+
+#portfolioD {
+    position: relative;
+}
+
+#descriptionD {
+    position: absolute;
+    top: 375px;
+    right: 335px;
+}
+
+#portfolioE {
+    position: relative;
+}
+
+#descriptionE {
+    position: absolute;
+    top: 550px;
 }
