@@ -1,15 +1,26 @@
 html {
+    width: 960px;
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
-    width: 960px;
+    
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
 
+.mainHeader {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 100%;
+}
+
+#topRight{
+    color: #777777;
+    font-size: 10px;
 }
 
 h1, h2, h3 {
@@ -22,7 +33,27 @@ h1 {
     color: white;
     background-color: #4aaaa5;
 }
+
 h2 {
     color: #4aaaa5;
     background-color: white;
+}
+
+.aboutMe {
+    padding: 10px 10px 10px 10px;
+    float: right;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777
+}
+
+#image {
+    float: left;
+    padding: 10px 10px 10px 0px;
+}
+
+
+
+hr {
+    background-color: #ffffff;
 }
