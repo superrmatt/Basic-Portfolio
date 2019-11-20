@@ -39,17 +39,26 @@ h2 {
     width: 100%;
     top: 0;
     left: 0;
+    height: 58px;
+
 }
 
 #topRight{
     color: #777777;
     font-size: 10px;
+    position: absolute;
+    right: 50%;
+    margin-right: -485px;
+    top: 20%;
 }
 
 #name {
     width:  225px;
     color: white;
     background-color: #4aaaa5;
+    position: absolute;
+    left: 50%;
+    margin-left: -485px;
 }
 
 #image {
