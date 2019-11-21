@@ -19,7 +19,7 @@ h2 {
     background-color: white;
 }
 
-.aboutMe, .portfolio {
+.body {
     padding: 10px 10px 10px 10px;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -163,3 +163,28 @@ footer {
     position: absolute;
     top: 550px;
 }
+
+input[type=text], select, textarea { 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    margin-top: 10px; 
+    margin-bottom: 12px;
+    resize: auto;
+}
+  
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#contactName, #email, #message{
+      width: 890px;
+}
+
+#message {
+    height: 150px;
+}
+  
