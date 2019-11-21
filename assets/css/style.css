@@ -13,6 +13,10 @@ h1, h2, h3 {
     border-color: #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+a {
+    text-decoration: none;
+    color: #777777;
+}
 
 h2 {
     color: #4aaaa5;
@@ -51,6 +55,7 @@ h2 {
     right: 50%;
     margin-right: -485px;
     top: 20%;
+
 }
 
 #name {
