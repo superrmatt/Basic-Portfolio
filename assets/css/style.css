@@ -92,15 +92,7 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 10px;
-}
-
-#extraFooter {
-    height: 5px;
-    background-color: #4aaaa5;
-    width: 100%;
-    position: relative;
-    bottom: 25px;
-
+    border-top: 8px solid #4aaaa5;
 }
 
 #portfolioA, #portfolioB, #portfolioC, #portfolioD, #portfolioE {
